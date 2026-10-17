@@ -6,7 +6,7 @@ description: Prépare, pour une liste de jeux, les fiches de présentation du sa
 # Fiches de jeux pour le forum Discord Golden Meeple
 
 L'utilisateur parle français et ne touche pas aux scripts. Réponds-lui en français, sans jargon technique.
-Les fiches aident ThomH, l'auteur habituel, qui utilise peu l'IA : elles doivent ressembler aux siennes.
+Les fiches doivent ressembler à celles déjà postées dans le salon (même ordre, même ton).
 
 ## Réglage
 - **Dossier des fiches** : `C:\Claude\Fiches Golden Meeple\`, un sous-dossier par jeu (nom = titre du post,
@@ -22,7 +22,7 @@ Les fiches aident ThomH, l'auteur habituel, qui utilise peu l'IA : elles doivent
 - **Ne jamais publier avec le compte de l'utilisateur** : ne rien taper ni envoyer dans Discord via Chrome
   (un programme qui poste avec un compte perso est interdit par Discord, le compte peut être banni). Discord
   sert seulement à **lire** (doublons, modèle). Publier = webhook, avec un oui explicite (voir référence).
-- **Ne rien inventer** : chaque info vient d'une page source. Introuvable → ligne vide comme ThomH
+- **Ne rien inventer** : chaque info vient d'une page source. Introuvable → ligne vide comme dans les fiches existantes
   (`BGG :`), ou ligne omise (LEX PLI, Cartes), et signalée dans `notes.txt`.
 - **Ne jamais deviner l'écriture japonaise d'un nom** : seulement si lue sur une source (BGG, Game Market).
 - Sources en désaccord (année BGG ≠ boutique) : garder BGG, noter l'écart.
@@ -73,7 +73,7 @@ Dossier du jeu, trois fichiers texte et un dossier :
     `T親方 (Master T)` (forme de BGG gardée telle quelle). Même personne aux deux places : la répéter.
     Plusieurs noms : séparés par `, `. Éditeur : orthographe de BGG.
   - Joueurs : `3 à 4 joueurs` ; un seul nombre : `2 joueurs`.
-  - Type : mécanique principale en anglais comme ThomH : `[Trick-Taking]`, `[Ladder Climbing]`,
+  - Type : mécanique principale en anglais, comme dans les fiches existantes : `[Trick-Taking]`, `[Ladder Climbing]`,
     `[Auction / Bidding]`, `[Hand Management]`… ; plusieurs : séparées par ` / `.
 - `notes.txt` : sources (liens), infos manquantes, écarts entre sources, doutes. Jamais collé sur Discord.
 - `joindre/` : ce qui accompagne le premier message :
