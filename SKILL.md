@@ -14,8 +14,8 @@ Les fiches doivent ressembler à celles déjà postées dans le salon (même ord
 - **Salon** : https://discord.com/channels/1051875525016178709/1251703405773328384 (forum). Modèle officiel
   dans le post épinglé « Bibliothèque », règles dans le « Guide des posts » : à relire dans Chrome si un doute.
 - `<skill>/scripts/` : `boutique_gm.py` (boutique Golden Meeple), `webhook.py` (publication).
-  `fiche_gm.py` (Tokyo Game Market) vient de la skill recherche-regles-jeu :
-  `~/.claude/skills/recherche-regles-jeu/scripts/fiche_gm.py`.
+  `fiche_gm.py` (Tokyo Game Market) vient de la skill rechercher du plugin regles-jeu :
+  `~/.claude/skills/regles-jeu/skills/rechercher/scripts/fiche_gm.py`.
 - **Publication par webhook** : lire `references/webhook.md`, et seulement dans ce cas.
 
 ## Règles à respecter
@@ -79,9 +79,9 @@ Dossier du jeu, trois fichiers texte et un dossier :
 - `joindre/` : ce qui accompagne le premier message :
   - `couverture.<ext>` : image BGG ou boutique (`curl -sL -A "Mozilla/5.0" -o`), dans le scratchpad d'abord,
     vérifier que c'est bien une image (`file` ou en-tête), puis la copier ici.
-  - Règles en VO / anglais : skill **recherche-regles-jeu** (liste de jeux : son mode « plusieurs jeux », une
+  - Règles en VO / anglais : skill **regles-jeu:rechercher** (liste de jeux : son mode « plusieurs jeux », une
     seule série de questions), puis copier le PDF retenu ici. Si l'utilisateur ne veut pas les règles, sauter.
-- `reponse/` (facultatif) : traduction française (skill **traduction-regles-jeu**, seulement si l'utilisateur
+- `reponse/` (facultatif) : traduction française (skill **regles-jeu:traduire**, seulement si l'utilisateur
   le demande) avec un `message.txt` court (« Version FR avec layout »). Elle se poste en **réponse** dans le
   post, comme l'utilisateur l'a fait sur The Good Farmer.
 
